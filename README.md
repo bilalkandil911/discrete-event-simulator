@@ -1,6 +1,6 @@
 # Discrete-Event Queueing Simulator
 
-A discrete-event simulation engine modeling a customer-service queueing system (e.g. bank tellers) — built in C++ for performance, with a Python bridge for running and visualizing simulations.
+A discrete-event simulation engine modeling a customer-service queueing system (e.g. bank tellers)  built in C++ for performance, with a Python bridge for running and visualizing simulations.
 
 ## Overview
 
@@ -10,8 +10,8 @@ The simulator models customers arriving at a service system, waiting in queue, a
 
 The project is split into two layers:
 
-- **C++ simulation engine** — implements the core data structures and event-driven simulation loop. This is where the actual model logic and performance-critical work happens.
-- **Python bridge (`app.py`)** — drives the C++ engine and handles running simulations and presenting results, without reimplementing the simulation logic itself.
+- **C++ simulation engine** implements the core data structures and event-driven simulation loop. This is where the actual model logic and performance-critical work happens.
+- **Python bridge (`app.py`)** drives the C++ engine and handles running simulations and presenting results, without reimplementing the simulation logic itself.
 
 ```
 main.cpp / simulator_bridge.cpp   →  simulation engine + bridge entry points
