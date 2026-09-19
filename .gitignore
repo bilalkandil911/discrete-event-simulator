@@ -1,0 +1,17 @@
+# Build artifacts
+*.exe
+*.out
+*.o
+*.obj
+bin/
+build/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS / editor
+.vscode/
+.idea/
+*.iml
+.DS_Store
